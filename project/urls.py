@@ -21,5 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('saludar/', index),
     path('mostrar-notas/', index_tres),
-    path('ejemplo/imc/<peso>/<altura>,', imc)
+    path('ejemplo/imc/<peso>/<altura>/', imc)
 ]
