@@ -8,8 +8,13 @@
 </head>
 <body>
 
-    SU indice de imc es {{imc | floatformat }}
+    <h1>Lista de mis familiares</h1>
 
-
+    {% for familiar in lista_familiares %}
+        <ul>
+            <li> Nombre: {{familiar.nombre}}, Dirección: {{familiar.direccion}}, Pasaporte: {{familiar.numero_pasaporte}} </li>
+        </ul>
+    {% endfor %}
+    
 </body>
 </html>
