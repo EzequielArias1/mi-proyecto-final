@@ -12,6 +12,9 @@ def index(request):
     posts = Post.objects.order_by('-date_published').all()
     return render(request, 'blog/index.html', {'posts': posts})
 
+def about(request):
+    return render(request, 'blog/about.html')
+
 class ListPost(ListView):
     model = Post
     paginate_by = 2
