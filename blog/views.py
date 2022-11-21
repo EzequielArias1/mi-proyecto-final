@@ -15,6 +15,9 @@ def index(request):
 def about(request):
     return render(request, 'blog/about.html')
 
+def contact(request):
+    return render(request, 'blog/contact.html')
+
 class ListPost(ListView):
     model = Post
     paginate_by = 2

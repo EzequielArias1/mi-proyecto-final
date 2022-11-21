@@ -15,5 +15,6 @@ urlpatterns = [
     path('signup/', BlogSignUp.as_view(), name="blog-signup"),
     path('user-profile/<int:pk>', ProfileUpdate.as_view(), name="profile-update"),
     path('about/', about, name="about"),
+    path('contact/', contact, name= "contact"),
 ]
 
