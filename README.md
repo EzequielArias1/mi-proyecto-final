@@ -1,5 +1,8 @@
 # mi-proyecto-final
 
+# VIDEO
+https://www.youtube.com/watch?v=WoKRKqS8N10
+
 # QUE CONTIENE EL BLOG
 Es una página en la cual se pueden crear, actualizar, leer o eliminar artículos.
 Está basada en el sistema CRUD.
